@@ -10,8 +10,8 @@ import static org.junit.Assert.*;
 public class CalculatorInterfaceTest {
 
   public void add(){
-    CalculatorInterface im new CalculatorInterfaceImplement();
-    int res = im.add(2,4);
+    CalculatorInterface im =new CalculatorInterfaceImplement();
+    int res =  im.add(2,4);
     Assert.assertEquals(14,res);
 
   }
